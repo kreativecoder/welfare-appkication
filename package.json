@@ -1,6 +1,5 @@
 {
   "name": "welfare-application",
-  "type": "module",
   "version": "1.0.0",
   "description": "welfare application",
   "main": "server/app.js",
