@@ -20,6 +20,9 @@ dotenv.config();
       dialect: 'postgres',
       dialectOptions: {
         "ssl": true
+      },
+      tls: {
+        rejectUnauthorized: false
       }
     }
   }
