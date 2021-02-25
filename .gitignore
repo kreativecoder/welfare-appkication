@@ -1,0 +1,6 @@
+node_modules
+Procfile
+.env
+.nyc_output/
+dist/
+build/
