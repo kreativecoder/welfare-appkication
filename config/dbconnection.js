@@ -5,9 +5,9 @@ import { config } from "dotenv";
 config();
 
 const sequelize = new Sequelize(
+  process.env.DATABASE_URL,
   {
-   connectionString: process.env.DATABASE_URL,
-   
+    host: process.DB_HOST,
     dialect: "postgres",
     ssl: {
       rejectUnauthorized: false
