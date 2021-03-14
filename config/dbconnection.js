@@ -7,7 +7,9 @@ config();
 const sequelize = new Sequelize(
   process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASS,
   {
-    // host: process.DB_HOST,
+    host: process.DB_HOST,
+    dialect: 'postgres',
+    logging: false,
     // username: "xkjvkmjouvynvq",
     // password: "cc52018c321647370ab23b6688f2c887ef0990eeca89b1c0aa0f3cc6d5c51dfa",
     // database: "d1o5s813gt1b2p",
@@ -24,9 +26,8 @@ const sequelize = new Sequelize(
     // ssl: {
     //   rejectUnauthorized: true
     // },
-    host: process.env.DB_HOST,
-    dialect: 'postgres',
-    logging: true,
+ 
+   
    
   }
 );

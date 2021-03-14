@@ -18,8 +18,8 @@ dotenv.config();
       logging: false
     },
     production: {
-      // use_env_variable: '',
-      url: 'postgres://xkjvkmjouvynvq:cc52018c321647370ab23b6688f2c887ef0990eeca89b1c0aa0f3cc6d5c51dfa@ec2-18-204-74-74.compute-1.amazonaws.com:5432/d1o5s813gt1b2p?sslmode=require'
+      use_env_variable: 'DATABASE_URL',
+      // url: 'postgres://xkjvkmjouvynvq:cc52018c321647370ab23b6688f2c887ef0990eeca89b1c0aa0f3cc6d5c51dfa@ec2-18-204-74-74.compute-1.amazonaws.com:5432/d1o5s813gt1b2p?sslmode=require'
       
       // username: "xkjvkmjouvynvq",
       // password: "cc52018c321647370ab23b6688f2c887ef0990eeca89b1c0aa0f3cc6d5c51dfa",
