@@ -18,14 +18,14 @@ dotenv.config();
       logging: false
     },
     production: {
-      // use_env_variable: 'DATABASE_URL',
-      username: "xkjvkmjouvynvq",
-      password: "cc52018c321647370ab23b6688f2c887ef0990eeca89b1c0aa0f3cc6d5c51dfa",
-      database: "d1o5s813gt1b2p",
-      host: "ec2-18-204-74-74.compute-1.amazonaws.com",
-      port: 5432,
-      dialect: "postgres",
-      operatorsAliases: false,
+      use_env_variable: 'DATABASE_URL',
+      // username: "xkjvkmjouvynvq",
+      // password: "cc52018c321647370ab23b6688f2c887ef0990eeca89b1c0aa0f3cc6d5c51dfa",
+      // database: "d1o5s813gt1b2p",
+      // host: "ec2-18-204-74-74.compute-1.amazonaws.com",
+      // port: 5432,
+      // dialect: "postgres",
+      // operatorsAliases: false,
       // url: process.env.DATABASE_URL,
       // dialect: 'postgres'
       
