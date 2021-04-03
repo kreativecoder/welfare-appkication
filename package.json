@@ -10,7 +10,7 @@
     "migration": "npx sequelize-cli db:migrate",
     "start": "node dist/app.js",
     "dev": "nodemon --exec babel-node server/app.js",
-    "heroku-postbuild": "npm run build && npm run migration",
+    "heroku-postbuild": "npm run build && npm run migration && npm run seed",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -51,6 +51,7 @@
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.1",
     "@babel/preset-env": "^7.13.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "nodemon": "^2.0.4"
