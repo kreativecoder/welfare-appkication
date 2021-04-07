@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "welfare application",
   "main": "server/app.js",
+  "type": "module",
   "scripts": {
     "build-server": "babel server --out-dir dist",
     "build": "npm run clean && npm run build-server",
