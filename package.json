@@ -11,7 +11,7 @@
     "migration": "npx sequelize-cli db:migrate",
     "start": "node dist/app.js",
     "dev": "nodemon --exec babel-node server/app.js",
-    "heroku-postbuild": "npm run build && npm run migration && npm run seed",
+    "heroku-postbuild": "npm run build && npm run migration",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
