@@ -4,7 +4,7 @@
   "description": "welfare application",
   "main": "server/app.js",
   "scripts": {
-    "build-server": "babel server/app.js --out-dir dist",
+    "build-server": "babel server --out-dir dist",
     "clean": "rm -rf node_modules",
     "build": "npm run clean && npm run build-server",
     "seed": "npx sequelize-cli db:seed:all",
