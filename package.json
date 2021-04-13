@@ -2,7 +2,7 @@
   "name": "welfare-application",
   "version": "1.0.0",
   "description": "welfare application",
-  "main": "server/app.js",
+  "main": "server/index.js",
   "scripts": {
     "build-server": "babel server/app.js --out-dir dist",
     "clean": "rm -rf dist",
